@@ -1,0 +1,23 @@
+<header>
+  <nav class="navbar navbar-dark bg-dark">
+    <div id="divBar" class="bg-dark">
+          <a class="nav-link" [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a>
+          <a class="nav-link" [routerLink]="['/portifolio']" routerLinkActive="router-link-active">Portifólio</a>
+          <a class="nav-link" href="mailto:alisson.neres@hotmail.com">Contato</a>
+    </div>
+  </nav>
+</header>
+
+<footer class="text center text-white fixed-bottom bg-dark " >
+    <div class="text-center  p-3 bg-dark "  >
+      <div class="bg-dark ">
+        <a  style="color:white" href="https://github.com/Alisson7Neres" target="_blank">GitHub</a>
+        <i class="bi bi-github"></i>
+      </div>
+      <div class="bg-dark">
+        <a style="color:white" href="https://www.linkedin.com/in/alisson-neres-ribeiro-71b2961a0/" target="_blank">LinkedIn</a>
+        <i class="bi bi-linkedin"></i> 
+      </div>
+    </div>
+</footer>
+<router-outlet></router-outlet>

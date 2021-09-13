@@ -1,0 +1,37 @@
+
+
+header {
+    background-color: black;
+}
+
+a {
+    margin-left: 10px;
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: bolder;
+    display: table-cell;
+   
+}
+p {
+    color: greenyellow;
+}
+#pPortifolio {
+    color:black;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#mostrarCampo, #mostrarCampoListas, #mostrarCampoIMC, #mostrarCampoAPI{
+    margin-top: 10px;
+    display: none;
+}
+li {
+    color: whitesmoke;
+}
+#divImg {
+    margin-top: 200px;
+    margin-left: -500px;
+}
+footer a {
+    float: right;
+}

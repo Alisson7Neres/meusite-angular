@@ -1,0 +1,24 @@
+a {
+    margin-left: 10px;
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: bolder;
+}
+p {
+    color: greenyellow;
+}
+#pPortifolio {
+    color:black;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+li {
+    color: whitesmoke;
+}
+button {
+   float: left;
+}
+hr {
+    color: greenyellow;
+}
